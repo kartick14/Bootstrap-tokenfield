@@ -1,6 +1,11 @@
 //include js : jquery-ui.js, bootstrap-tokenfield.min.js and typeahead.bundle.min.js
 // include css: jquery-ui.css, bootstrap-tokenfield.min.css and tokenfield-typeahead.min.css
 
+/*
+<input type="text" name="dmr_county" class="form-control" id="dmr_county_id" value="" />
+<input type="hidden" name="dmr_county_list" class="form-control" id="dmr_county_list_id" value="" />
+*/
+
 jQuery(document).ready(function () {
 	/*----------------------------------- Sponsor AD Section Start --------------------------------------*/
 	var API_URL = '<?php echo get_stylesheet_directory_uri()?>/sponsor_ajax.php';
